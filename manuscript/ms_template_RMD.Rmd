@@ -1,7 +1,7 @@
 --- 
 title: "Template manuscript"
-author: "Oscar de Grouche, John Doe, Jane Austen"
-date: "3/30/2017"
+author: "Oscar de Grouche, Jane Doe"
+date: "4/14/2017"
 output:
   word_document:
     fig_caption: yes
