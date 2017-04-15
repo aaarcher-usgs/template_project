@@ -3,7 +3,7 @@ Template directory structure and programs for a quantitative ecology project in 
 
 ## Directory structure overview
 
-- **data** 
+- **data**
     - **raw_data** : store raw .csv files here
     - **processed_data** : store any data that has been processed for analysis here (e.g., in .Rdata format)
     - **output_data** : (optional) store any data or results here (e.g., model coefficients or objects, JAGS posteriors)
@@ -11,20 +11,25 @@ Template directory structure and programs for a quantitative ecology project in 
     - **ms_figures** : place to hold the finalized figures that are ready for publication (or draft publications)
 - **output** : place to hold any spun html documents. These are the files that you could archive through services such as Data Repository for the University of Minnesota. See some of these for examples http://conservancy.umn.edu/browse?type=author&value=ArchMiller,%20Althea%20A.
     - **figures** : when you spin R programs into html, any figures will get deposited here.
-- **programs** : put all of your analysis programs here. I have made up a series of example programs, and have provided one generalized template program (z_template.R) for your use. These are written in R-Oxygen, and it is important to spin them using the ezspin() line provided at the bottom of the program and **not** the knit/spin button. 
+- **programs** : put all of your analysis programs here. I have made up a series of example programs, and have provided one generalized template program (z_template.R) for your use. These are written in R-Oxygen, and it is important to spin them using the ezspin() line provided at the bottom of the program and **not** the knit/spin button.
 - **Readme_template.txt** : Template readme file that could be filled out if you were planning to archive your analysis and data. Originally downloaded from the Data Repository for the University of Minnesota website, but modified for easier completion.
 
 ## How to use this template
 
-If you would like to use this template directory structure, simply download the template_project.zip file and unzip it into your main R_projects folder. 
+If you would like to use this template directory structure, simply download the template_project.zip file and unzip it into your main R_projects folder.
 
 Then, if you would like to create a new Rproject with GitHub and RStudio using this template directory structure, follow these steps:
 
 1. Create a new repository in your GitHub account (optionally with a README)
 2. Copy the pathway to your repository (e.g., https://github.com/aaarchmiller/template_project)
-3. In RStudio, File > New Project > Version Control > Git > 
+3. In RStudio, File > New Project > Version Control > Git >
 4. Paste in the pathway to your repository
 5. Type in project name (if not automatically populated)
 6. Double check that it will be saved in your main R_projects folder and then click "Create Project"
 7. Copy any of the template folders or files from your unzipped template_project into your new repository. I recommend using the full directory structure that I have provided in this template.
 
+## How to make your own template
+
+If you would like to modify this template for your own use, you probably want to fork the repository -- this creates a copy of the repo on your own GitHub account, which you can then clone from. The intention of doing so is that you can then make changes to the overall template for your own usage as well as share those changes with everyone else from your own GitHub account (or ask for those changes to be merged back in with the original repository).
+
+Creating a fork is as simple as clicking on the fork button at the top of the repository page (note that you need to be logged in to GitHub for this to work). Some more information on creating a fork, and keeping it synchronized to the original repository can be found here: https://help.github.com/articles/fork-a-repo/
