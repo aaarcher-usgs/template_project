@@ -5,6 +5,7 @@ date: "`r format(Sys.Date(), '%B %d, %Y')`"
 output:
   word_document:
     fig_caption: yes
+    reference_docx: word-styles-reference-01.docx
   pdf_document:
     includes:
       latex_engine: pdflatex
@@ -20,6 +21,8 @@ knitr::opts_chunk$set(echo = TRUE)
 # Abstract
 
 Abstract text would go here. 
+
+The formating for this manuscript is controlled by the template "word-styles-reference-01.docx." If you would like to change the formatting to match a journal's preferences, for example, you can follow the instructions in this article:  <http://rmarkdown.rstudio.com/articles_docx.html>. 
 
 # Introduction
 
